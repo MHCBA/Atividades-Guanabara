@@ -1,0 +1,6 @@
+print('===========================================================')
+print('                     EXERCICIO 25                          ')
+print('===========================================================')
+name = str(input('digite seu nome completo: ')).strip()
+name2 = name.lower()
+print(f'Seu nome tem silva? {"silva" in name2}')

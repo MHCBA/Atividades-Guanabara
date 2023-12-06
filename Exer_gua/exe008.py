@@ -1,0 +1,5 @@
+print('===========================================================')
+print('                     EXERCICIO 8                           ')
+print('===========================================================')
+n1 = float(input('digite sua altura em metros: '))
+print(f'sua altura em centimetros é igual a {n1*100} e em milimetros {n1*1000}')

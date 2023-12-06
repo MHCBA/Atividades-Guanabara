@@ -1,0 +1,5 @@
+print('===========================================================')
+print('                     EXERCICIO 6                           ')
+print('===========================================================')
+n1 = int(input('digite um numero: '))
+print(f'o dobro deste numero é igual a {n1*2}, o triplo é igual a {n1*3} e a raiz quadrada deste numero é {n1**2}')

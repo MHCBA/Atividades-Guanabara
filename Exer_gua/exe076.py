@@ -1,0 +1,10 @@
+print('===========================================================')
+print('                     EXERCICIO 76                          ')
+print('===========================================================')
+produtos = ("Camiseta", 29.99, "Calça Jeans", 59.99, "Tênis esportivo", 79.99, "Mochila", 39.99, "Relógio", 49.99, "Fone de Ouvido", 29.99, "Câmera Digital", 199.99, "Tablet", 149.99)
+print('-'*65)
+print('{:^65}'.format('LISTAGEM DE PREÇOS'))
+print('-'*65)
+for i in range (0, 16, 2):
+    print(f'{produtos[i]:.<50}', 'R$ ', produtos[i + 1])
+print('-'*65)

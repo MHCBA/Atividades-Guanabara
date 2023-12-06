@@ -1,0 +1,5 @@
+print('===========================================================')
+print('                     EXERCICIO 12                          ')
+print('===========================================================')
+n1 = float(input('estamos com uma promoção de 5% de desconto em todos nosso produtos, digite o preço do produto para o desconto: '))
+print(f'o preço com desconto deste produto é de {n1-(n1*0.05)}')

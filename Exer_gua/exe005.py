@@ -1,0 +1,5 @@
+print('===========================================================')
+print('                     EXERCICIO 5                           ')
+print('===========================================================')
+n1 = int(input("digite um numero: "))
+print(f"o numero antecessor a este é o {n1-1} e o sucessor é o {n1+1}")
