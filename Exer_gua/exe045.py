@@ -9,7 +9,7 @@ cor_reset = "\033[0m"
 print('===========================================================')
 print('                     EXERCICIO 45                          ')
 print('===========================================================')
-print(f'''jokepô escolha entre{cor_verde} pedra{cor_reset}, {cor_vermelha}papel{cor_reset} e {cor_amarela}tesoura{cor_reset}
+print(f'''jokenpô! escolha entre{cor_verde} pedra{cor_reset}, {cor_vermelha}papel{cor_reset} e {cor_amarela}tesoura{cor_reset}
 [1]Pedra vence Tesoura: A pedra quebra a tesoura, então a pedra ganha contra a tesoura. 
 [2]Tesoura vence Papel: A tesoura corta o papel, então a tesoura ganha contra o papel. 
 [3] Papel vence Pedra: O papel cobre a pedra, então o papel ganha contra a pedra.''')
@@ -24,6 +24,7 @@ sleep (1)
 print('KEN')
 sleep(1)
 print('PO!!')
+sleep(1)
 pc_escolha = random.choice(alternativas)
 if jogador_escolha == 1:
     if pc_escolha == 1:
